@@ -8,7 +8,33 @@
     --testimonials-background: #F7F7F7;
     --testimonials-title: rgba(50, 50, 50, 0.36);
     --footer-text: #858585;
+}
 
+.header {
+    background-color: var(--header-backbround);
+}
 
+.header-logo {
+color: var(--text-color);
+font-family: "Roboto Condensed";
+font-size: 24px;
+font-weight: 400;
+line-height: 20px; /* 83.333% */
+text-transform: uppercase;
+}
 
+.nav-link {
+color: var(--text-color);
+font-family: "Roboto Condensed";
+font-size: 15px;
+font-weight: 400;
+line-height: 1.33; /* 133.333% */
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+.nav-link:hover,
+.nav-link:focus{
+color: var(--accent-color);
+background-color: var(--hover-background);
 }
