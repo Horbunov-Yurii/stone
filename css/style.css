@@ -1,153 +1,205 @@
 :root {
-    --header-backbround:#323232;
+    --header-backbround: #323232;
     --text-color: #EDEDED;
     --hover-background: #000;
     --accent-color: #C7AA8B;
-    --title-color:#FFF;
+    --title-color: #FFF;
     --services-text: #4D4D4D;
     --testimonials-background: #F7F7F7;
     --testimonials-title: rgba(50, 50, 50, 0.36);
     --footer-text: #858585;
-    --hero-text:rgba(255, 255, 255, 0.81);
+    --hero-text: rgba(255, 255, 255, 0.81);
 }
-body{
-font-family: "Roboto Condensed";
+
+body {
+    font-family: "Roboto Condensed";
 }
+
 .header {
     background-color: var(--header-backbround);
 }
 
 .header-logo {
-color: var(--text-color);
-font-size: 24px;
-font-weight: 400;
-line-height: 20px; /* 83.333% */
-text-transform: uppercase;
+    color: var(--text-color);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 20px;
+    /* 83.333% */
+    text-transform: uppercase;
 }
 
 .nav-link {
-color: var(--text-color);
-font-size: 15px;
-font-weight: 400;
-line-height: 1.33; /* 133.333% */
-letter-spacing: 2px;
-text-transform: uppercase;
+    color: var(--text-color);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.33;
+    /* 133.333% */
+    letter-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .nav-link:hover,
-.nav-link:focus{
-color: var(--accent-color);
-background-color: var(--hover-background);
+.nav-link:focus {
+    color: var(--accent-color);
+    background-color: var(--hover-background);
 }
 
-.hero{
-    background-color: #323232;
+.hero {
+    background-image: url(../img/background-hero.png);
+
 }
 
-.hero-title{
+.hero-title {
     color: var(--title-color);
-text-align: center;
-font-size: 78px;
-font-weight: 400;
-line-height: 66px; /* 84.615% */
-text-transform: uppercase;
+    text-align: center;
+    font-size: 78px;
+    font-weight: 400;
+    line-height: 66px;
+    /* 84.615% */
+    text-transform: uppercase;
 }
 
 
 
-.hero-text{
+.hero-text {
     color: var(--hero-text);
-text-align: center;
-font-family: Vollkorn;
-font-size: 18px;
-font-weight: 400;
-line-height: 1.11; /* 111.111% */
-}
-.hero-btn{
-    color: var(--title-color);
-text-align: center;
-font-size: 16px;
-font-weight: 400;
-line-height: 1.25; /* 125% */
-text-transform: uppercase;
+    text-align: center;
+    font-family: Vollkorn;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.11;
+    /* 111.111% */
 }
 
-.services{
+.hero-btn {
+    color: var(--title-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    /* 125% */
+    text-transform: uppercase;
+}
+
+.services {
     background-color: var(--accent-color);
 }
 
-.services-title{
+.services-title {
     color: var(--services-text);
-text-align: center;
-font-size: 20px;
-font-weight: 400;
-line-height: 1; /* 100% */
-text-transform: uppercase;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    /* 100% */
+    text-transform: uppercase;
 }
 
 
-.services-text{
+.services-text {
     color: var(--services-text);
-font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 1.42; /* 142.857% */
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42;
+    /* 142.857% */
 }
 
-.team-title{
-    
-    color: var(--services-text);
-        font-size: 30px;
-        font-weight: 400;
-        line-height: 27px;
-        /* 90% */
-        text-transform: uppercase;
+.banner {
+    background-image: url(../img/background-banner.png);
 }
 
-.team-caption{
-    color: var(--services-text);
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.25;
-        /* 125% */
-}
-
-.team-text{
-    color: var(--services-text);
-        font-family: Vollkorn;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 1.66;
-        /* 166.667% */
-}
-
-.comments-title{
-    color: var(--testimonials-title);
-        text-align: center;
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 1.33;
-        /* 133.333% */
-        text-transform: uppercase;
-}
-
-.comments-text{
-    color: var(--services-text);
-        text-align: center;
-        font-family: Vollkorn;
-        font-size: 18px;
-        font-weight: 400;
-        line-height: 1.11;
-        /* 111.111% */
-}
-
-.comments-desk{
+.banner-title {
     color: var(--accent-color);
-        text-align: center;
-        font-size: 13px;
-        font-weight: 400;
-        line-height: 1.53;
-        /* 153.846% */
-        text-transform: uppercase;
+    font-size: 47px;
+    font-weight: 400;
+    line-height: 1.17;
 }
 
+.team-title {
+
+    color: var(--services-text);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 27px;
+    /* 90% */
+    text-transform: uppercase;
+}
+
+.team-caption {
+    color: var(--services-text);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    /* 125% */
+}
+
+.team-text {
+    color: var(--services-text);
+    font-family: Vollkorn;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.66;
+    /* 166.667% */
+}
+.comments{
+    background: var(--testimonials-background);
+}
+
+.comments-title {
+    color: var(--testimonials-title);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.33;
+    /* 133.333% */
+    text-transform: uppercase;
+}
+
+.comments-text {
+    color: var(--services-text);
+    text-align: center;
+    font-family: Vollkorn;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.11;
+    /* 111.111% */
+}
+
+.comments-desk {
+    color: var(--accent-color);
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.53;
+    /* 153.846% */
+    text-transform: uppercase;
+}
+.footer{
+    background-color: var(--header-backbround);
+}
+
+.footer-link {
+    color: var(--footer-text);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42;
+}
+
+.footer-btn {
+    color: var(--accent-color);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.25;
+    text-transform: uppercase;
+}
+
+.addres-link {
+    color: var(--footer-text);
+    text-align: right;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.53;
+}
