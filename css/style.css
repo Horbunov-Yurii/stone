@@ -10,14 +10,15 @@
     --footer-text: #858585;
     --hero-text:rgba(255, 255, 255, 0.81);
 }
-
+body{
+font-family: "Roboto Condensed";
+}
 .header {
     background-color: var(--header-backbround);
 }
 
 .header-logo {
 color: var(--text-color);
-font-family: "Roboto Condensed";
 font-size: 24px;
 font-weight: 400;
 line-height: 20px; /* 83.333% */
@@ -26,7 +27,6 @@ text-transform: uppercase;
 
 .nav-link {
 color: var(--text-color);
-font-family: "Roboto Condensed";
 font-size: 15px;
 font-weight: 400;
 line-height: 1.33; /* 133.333% */
@@ -47,9 +47,7 @@ background-color: var(--hover-background);
 .hero-title{
     color: var(--title-color);
 text-align: center;
-font-family: "Roboto Condensed";
 font-size: 78px;
-font-style: normal;
 font-weight: 400;
 line-height: 66px; /* 84.615% */
 text-transform: uppercase;
@@ -62,16 +60,13 @@ text-transform: uppercase;
 text-align: center;
 font-family: Vollkorn;
 font-size: 18px;
-font-style: normal;
 font-weight: 400;
 line-height: 1.11; /* 111.111% */
 }
 .hero-btn{
     color: var(--title-color);
 text-align: center;
-font-family: "Roboto Condensed";
 font-size: 16px;
-font-style: normal;
 font-weight: 400;
 line-height: 1.25; /* 125% */
 text-transform: uppercase;
@@ -80,12 +75,11 @@ text-transform: uppercase;
 .services{
     background-color: var(--accent-color);
 }
+
 .services-title{
     color: var(--services-text);
 text-align: center;
-font-family: "Roboto Condensed";
 font-size: 20px;
-font-style: normal;
 font-weight: 400;
 line-height: 1; /* 100% */
 text-transform: uppercase;
@@ -96,7 +90,64 @@ text-transform: uppercase;
     color: var(--services-text);
 font-family: Roboto;
 font-size: 14px;
-font-style: normal;
 font-weight: 400;
 line-height: 1.42; /* 142.857% */
 }
+
+.team-title{
+    
+    color: var(--services-text);
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 27px;
+        /* 90% */
+        text-transform: uppercase;
+}
+
+.team-caption{
+    color: var(--services-text);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.25;
+        /* 125% */
+}
+
+.team-text{
+    color: var(--services-text);
+        font-family: Vollkorn;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.66;
+        /* 166.667% */
+}
+
+.comments-title{
+    color: var(--testimonials-title);
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.33;
+        /* 133.333% */
+        text-transform: uppercase;
+}
+
+.comments-text{
+    color: var(--services-text);
+        text-align: center;
+        font-family: Vollkorn;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.11;
+        /* 111.111% */
+}
+
+.comments-desk{
+    color: var(--accent-color);
+        text-align: center;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.53;
+        /* 153.846% */
+        text-transform: uppercase;
+}
+
