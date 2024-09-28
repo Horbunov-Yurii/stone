@@ -10,6 +10,12 @@
     --footer-text: #858585;
     --hero-text: rgba(255, 255, 255, 0.81);
 }
+.container {
+    width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+    outline: 1px solid gold;
+}
 
 body {
     font-family: "Roboto Condensed";
@@ -18,22 +24,30 @@ body {
 .header {
     background-color: var(--header-backbround);
 }
-
+.header-box {
+    display: flex;
+    align-items: center;
+}
 .header-logo {
+    display: flex;
     color: var(--text-color);
     font-size: 24px;
     font-weight: 400;
     line-height: 20px;
-    /* 83.333% */
     text-transform: uppercase;
+    margin-right: 30px;
 }
-
+.nav-list {
+    display: flex;
+}
+.nav-item {
+    padding: 20px 30px;
+}
 .nav-link {
     color: var(--text-color);
     font-size: 15px;
     font-weight: 400;
     line-height: 1.33;
-    /* 133.333% */
     letter-spacing: 2px;
     text-transform: uppercase;
 }
@@ -43,7 +57,24 @@ body {
     color: var(--accent-color);
     background-color: var(--hover-background);
 }
-
+.header-list {
+    display: flex;
+    margin-left: auto;
+}
+.header-img {
+    width: 15px;
+    height: 15px;
+    fill: var(--title-color);
+}
+.header-link {
+    padding: 22px 23px;
+}
+.header-link:hover .header-img {
+    fill: yellow;
+}
+.header-link:hover {
+    background-color: #000;
+}
 .hero {
     background-image: url(../img/background-hero.png);
 
